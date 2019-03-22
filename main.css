@@ -7,9 +7,7 @@ body {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  background: url('assets/freedom.jpg') no-repeat center;
+  background: url('assets/freedom.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #333;
 }
@@ -23,7 +21,7 @@ body {
 
 .quote {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 2.5rem; 
+  font-size: 2rem; 
 }
 
 .author {
@@ -32,12 +30,11 @@ body {
   font-style: italic;
 }
 
-
 nav {
     background-color: transparent;
     width: 100%;
     text-align: center;
 	  bottom: 0;
 	  position: fixed;
-	  font-size: 1.5rem;
+	  font-size: 1.3rem;
 }
